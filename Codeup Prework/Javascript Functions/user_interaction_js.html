@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="">
+		<title>User Interaction JS</title>
+
+	</head>
+	<body>
+		<script>
+			"use strict";
+
+// TODO: Ask the user for their name.
+//       Keep asking if an empty input is provided.
+
+		var name = "";
+
+		while (name === "") {
+			name = prompt("What's your name?");
+		}
+		
+			alert("Wow, " + name + " is a really cool name!");
+			
+
+
+
+
+
+
+
+		
+
+// TODO: Show an alert message that welcomes the user based on their input.
+
+		alert("Welcome to Javascript, " + name + "!");
+
+// TODO: Ask the user if they like pizza.
+//       Based on their answer show a creative alert message.
+
+		var pizza = confirm("Do you like pizza?");
+
+		if (pizza) {
+
+			alert("Everybody likes pizza!");
+		} else {
+
+			alert("You must be crazy!");
+		}
+
+		
+
+
+
+
+
+		</script>
+
+
+	</body>
+
+</html>
